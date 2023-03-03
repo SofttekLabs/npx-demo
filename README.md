@@ -75,7 +75,16 @@ npm publish
 
 
 ## Example
-This repo is a real example of a CLI. Run
+This repo is a real example of a CLI.
+
+There are three commands available
+- sum
+- mult
+- salute (no args)
+
+The CLI expects args to be an array of numbers, and will output the result of the selected operation
+
+Example
 ```cmd
 npx @gantonioid/runnable-demo --command sum --args [1,2,3]
 ## Expected output: 6
