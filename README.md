@@ -82,10 +82,16 @@ There are three commands available
 - mult
 - salute (no args)
 
-The CLI expects args to be an array of numbers, and will output the result of the selected operation
+The CLI expects args to be an array of numbers, and will output the result of the selected operation (except salute)
 
 Example
 ```cmd
 npx @gantonioid/runnable-demo --command sum --args [1,2,3]
 ## Expected output: 6
+
+npx @gantonioid/runnable-demo --command mult --args [2,2,2,2,2]
+## Expected output: 32
+
+npx @gantonioid/runnable-demo --command salute
+## Expected output: hello world
 ```
