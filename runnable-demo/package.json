@@ -1,0 +1,34 @@
+{
+  "name": "@gantonioid/runnable-demo",
+  "version": "0.0.4",
+  "description": "Simple package of a CLI tool",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "bin": {
+    "demo": "dist/index.js"
+  },
+  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gantonioid/runnable-demo.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "author": "@gantonioid",
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "yargs": "^17.7.1"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.191",
+    "@types/node": "^18.14.6",
+    "@types/yargs": "^17.0.22",
+    "typescript": "^4.9.5"
+  }
+}
