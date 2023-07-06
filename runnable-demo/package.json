@@ -1,5 +1,5 @@
 {
-  "name": "@gantonioid/runnable-demo",
+  "name": "@fridaplatform-stk/runnable-demo",
   "version": "0.0.5",
   "description": "Simple package of a CLI tool",
   "main": "dist/index.js",
@@ -14,12 +14,12 @@
   "keywords": [],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gantonioid/runnable-demo.git"
+    "url": "git+https://github.com/SofttekLabs/npx-demo.git"
   },
   "publishConfig": {
-    "access": "public"
+    "access": "private"
   },
-  "author": "@gantonioid",
+  "author": "@fridaplatform",
   "license": "MIT",
   "dependencies": {
     "lodash": "^4.17.21",
