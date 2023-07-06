@@ -38,12 +38,25 @@ Add this line to the `index.ts` file, because it is needed for the CLI tool to w
 #! /usr/bin/env node
 ```
 
-You'll need to set the CLI as public, because private packages require payment or complex setup. So in `package.json`
+You'll need to set the CLI as public, because private packages require payment or complex setup. So in `package.json`. The command line always tries to publish in private mode by default. You must explicitly set your package as public.
 ```json
 {
     ...
     "publishConfig": {
         "access": "public"
+    }
+    ...
+}
+```
+
+### Private package
+If you have a paid plan in npmjs.com then you can publish private packages. The changes in `package.json` are:
+```json
+{
+    "name": "@fridaplatform-stk/runnable-demo", // @scope/package-name
+    ...
+    "publishConfig": {
+        "access": "private"
     }
     ...
 }
