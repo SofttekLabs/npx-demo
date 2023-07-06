@@ -86,6 +86,11 @@ then publish it, remember to patch the package version
 npm publish
 ```
 
+### Access control
+
+After publishing your package, if it is private, nobody will be able to use it (besides you) unless you give them access. You should explore how to do that in npmjs docs.
+
+However, in our Softtek Innovation team we created an organization `@fridaplatform-stk`. An admin can invite you to the organization OR share `fridaplatform`'s credentials (our generic username).
 
 ## Example
 This repo is a real example of a CLI.
